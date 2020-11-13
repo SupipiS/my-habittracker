@@ -1,0 +1,130 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.habit-container {
+    padding: 1em;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    border: 2px solid black;
+    padding: 1em;
+}
+
+h4 {
+    color: black;
+}
+
+.clear {
+    /*refresh button*/
+    text-align: right;
+}
+
+.datetime {
+    padding-top: 5px;
+    line-height: 0.6em;
+    font-size: 17px;
+    float: right;
+}
+
+.right {
+    text-align: right;
+}
+
+.square {
+    display: flex;
+    margin-bottom: 5px;
+    float: right;
+}
+
+#sqr1 {
+    height: 25px;
+    width: 25px;
+    background-color: #555;
+    border: 2px solid black;
+    margin-right: 7px;
+}
+
+#sqr2 {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border: 2px solid black;
+    margin-right: 7px;
+}
+
+#sqr3 {
+    height: 25px;
+    width: 25px;
+    background-color: green;
+    border: 2px solid black;
+    margin-right: 7px;
+}
+
+#sqr4 {
+    height: 25px;
+    width: 25px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+.tracker {
+    padding: 1em;
+    border: 2px solid black;
+}
+
+.heading, .tasks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/*.heading {
+    border: 2px solid black;
+}*/
+
+.days, .checkbox-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    color: rgb(143, 129, 129);
+    font-size: 40px;
+}
+
+.toright {
+    float: right;
+    padding-right: 10px;
+}
+
+.day-of-week, .task-checkbox {
+    margin: 2px;
+    border-radius: 4px;
+}
+
+.task-holder {
+    background: rgb(20, 19, 19);
+    border-radius: 8px;
+    color: rgb(236, 223, 223);
+    padding-left: 15px;
+}
+
+.task-holder.empty {
+    background: none;
+}
+
+.task-checkbox-completed {
+    background: rgb(180, 255, 180);
+}
+
+.task-completed {
+    text-decoration: line-through;
+}
